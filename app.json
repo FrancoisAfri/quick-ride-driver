@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Mobidonia",
-    "slug": "mobidonia",
-    "version": "3.6.1",
+    "name": "QRide Driver",
+    "slug": "QRide Driver",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -21,14 +21,18 @@
         "NSLocationAlwaysUsageDescription": "This app uses the location to track the order current position",
         "NSLocationWhenInUseUsageDescription": "This app uses the location to track the order position"
       },
-      "bundleIdentifier": "com.dimovdaniel.mobidonia",
+      "bundleIdentifier": "co.driver.qride",
       "supportsTablet": false,
-      "buildNumber":"1.1"
+      "buildNumber": "1.1"
     },
     "android": {
-      "package": "com.dimovdaniel.mobidonia",
-      "versionCode": 2
+      "package": "co.driver.qride",
+      "versionCode": 1
     },
-    "description": ""
+    "description": "",
+    "extra": {
+      "eas": {
+      }
+    }
   }
 }
